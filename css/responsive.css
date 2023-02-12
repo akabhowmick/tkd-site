@@ -1,0 +1,59 @@
+/* Navbar responsiveness */
+@media screen and (min-width: 800px){
+  .mobile-menu{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav .list-of-links, #cta {display: none;}
+  .topnav .no-hover{
+    display: block;
+    margin: 0 auto;
+  }
+  .topnav a.icon {
+    display: inline;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  [aria-expanded="false"]{
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul{
+    display: block;
+    position: absolute;
+    right: 1.5rem;
+    top: 6rem;
+    background-color: var(--light-red);
+    width: 100%;
+    text-align: right;
+    z-index: 1000;
+    width: 110%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  [aria-expanded="true"]~ul li a {
+    margin-right: 1.25rem;
+    color: var(--white);
+  }
+
+  .show{
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    background-color: var(--light-red);
+    display: flex;
+    width: -webkit-fill-available;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+  }
+
+  .section-header{
+    padding: 8rem 5rem 3rem;
+  }
+}
