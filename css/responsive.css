@@ -57,3 +57,38 @@
     padding: 8rem 5rem 3rem;
   }
 }
+
+@media screen and (max-width: 600px){
+  .card{
+    min-width: 300px;
+  }
+
+  .home-picture {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .header-large h3 {
+    font-size: 2.5rem;
+  }
+
+  .modal-body .img-wrapper img{
+    display: none;
+  }
+
+  .modal-body .text-wrapper{
+
+  }
+
+  .text-wrapper li{
+    list-style: square;
+  }
+
+  .section-header{
+    padding: 8rem 0 3rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
