@@ -59,6 +59,14 @@
 }
 
 @media screen and (max-width: 600px){
+  .home-page-section{
+    padding-top: 3.5rem;
+  }
+
+  .show{
+    top: 3.5rem;
+  }
+
   .card{
     min-width: 300px;
   }
@@ -90,5 +98,19 @@
     padding: 8rem 0 3rem;
     font-size: 3rem;
     text-align: center;
+  }
+
+  .logo{
+    position: absolute;
+    width: 40px;
+    top: 10px;
+  }
+
+  .sign-up-g h2, .events h2{
+    font-size: 2.5rem;
+  }
+
+  .lies{
+    display: none;
   }
 }
