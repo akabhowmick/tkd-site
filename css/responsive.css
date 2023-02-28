@@ -1,4 +1,15 @@
 /* Navbar responsiveness */
+@media screen and (min-width: 1300px){
+  .portfolio-grid {
+    display: grid;
+    flex-wrap: wrap;
+    padding: 2% 30%;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
 @media screen and (min-width: 800px){
   .mobile-menu{
     display: none;

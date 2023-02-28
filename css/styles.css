@@ -258,7 +258,9 @@ button:not(:disabled):not(.disabled){
 
 iframe{
   width: 100%;
+  max-width: 650px;
   min-height: 350px;
+  margin: 0 auto;
   vertical-align: middle;
 }
 
@@ -544,6 +546,8 @@ iframe{
 
 .schedule-section img{
   width: 100%;
+  max-width: 1500px;
+  margin: 3%;
 }
 
 .events {
