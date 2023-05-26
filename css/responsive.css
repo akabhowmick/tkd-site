@@ -1,24 +1,27 @@
 /* Navbar responsiveness */
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1300px) {
   .portfolio-grid {
     display: grid;
     flex-wrap: wrap;
-    padding: 2% 30%;
+    padding: 2% 10%;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     justify-items: center;
   }
 }
 
-@media screen and (min-width: 800px){
-  .mobile-menu{
+@media screen and (min-width: 800px) {
+  .mobile-menu {
     display: none;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .topnav .list-of-links, #cta {display: none;}
-  .topnav .no-hover{
+  .topnav .list-of-links,
+  #cta {
+    display: none;
+  }
+  .topnav .no-hover {
     display: block;
     margin: 0 auto;
   }
@@ -26,15 +29,15 @@
     display: inline;
   }
 
-  li{
+  li {
     list-style: none;
   }
 
-  [aria-expanded="false"]{
+  [aria-expanded="false"] {
     display: none;
   }
 
-  [aria-expanded="true"] ~ ul{
+  [aria-expanded="true"] ~ ul {
     display: block;
     position: absolute;
     right: 1.5rem;
@@ -47,12 +50,12 @@
     transition: transform 0.4s ease-in-out;
   }
 
-  [aria-expanded="true"]~ul li a {
+  [aria-expanded="true"] ~ ul li a {
     margin-right: 1.25rem;
     color: var(--white);
   }
 
-  .show{
+  .show {
     position: fixed;
     top: 5rem;
     left: 0;
@@ -64,22 +67,24 @@
     padding-bottom: 1rem;
   }
 
-  .section-header{
+  .section-header {
     padding: 8rem 5rem 3rem;
   }
 }
 
-@media screen and (max-width: 600px){
-  .home-page-section{
+@media screen and (max-width: 600px) {
+  .home-page-section {
     padding-top: 3.5rem;
   }
 
-  .show{
+  .show {
     top: 3.5rem;
+    bottom: 0;
   }
 
-  .card{
+  .card {
     min-width: 300px;
+    padding: 1rem;
   }
 
   .home-picture {
@@ -89,39 +94,40 @@
     object-position: center;
   }
 
+  iframe {
+    min-height: 65%;
+  }
+
   .header-large h3 {
     font-size: 2.5rem;
   }
 
-  .modal-body .img-wrapper img{
+  .modal-body .img-wrapper img {
     display: none;
   }
 
-  /* .modal-body .text-wrapper{
-
-  } */
-
-  .text-wrapper li{
+  .text-wrapper li {
     list-style: square;
   }
 
-  .section-header{
+  .section-header {
     padding: 8rem 0 3rem;
     font-size: 3rem;
     text-align: center;
   }
 
-  .logo{
+  .logo {
     position: absolute;
     width: 40px;
     top: 10px;
   }
 
-  .sign-up-g h2, .events h2{
+  .sign-up-g h2,
+  .events h2 {
     font-size: 2.5rem;
   }
 
-  .lies{
+  .lies {
     display: none;
   }
 }

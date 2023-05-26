@@ -288,6 +288,8 @@ iframe{
 .dark-bg .subheader{
   color: #fff;
   line-height: 2;
+  text-align: center;
+  margin: 0 auto;
 }
 
 
@@ -295,6 +297,8 @@ iframe{
 .light-bg .subheader{
   color: #000;
   line-height: 2;
+  text-align: center;
+  margin: 0 auto;
 }
 
 
