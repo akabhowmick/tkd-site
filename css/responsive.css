@@ -10,13 +10,13 @@
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 820px) {
   .mobile-menu {
     display: none;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
   .topnav .list-of-links,
   #cta {
     display: none;
@@ -70,9 +70,16 @@
   .section-header {
     padding: 8rem 5rem 3rem;
   }
+
+  .logo {
+    position: absolute;
+    width: 50px;
+    top: 5px;
+  }
 }
 
 @media screen and (max-width: 600px) {
+
   .home-page-section {
     padding-top: 3.5rem;
   }
@@ -80,6 +87,7 @@
   .show {
     top: 3.5rem;
     bottom: 0;
+    margin-bottom: 0rem;
   }
 
   .card {
@@ -95,7 +103,7 @@
   }
 
   iframe {
-    min-height: 65%;
+    min-height: 300px;
   }
 
   .header-large h3 {

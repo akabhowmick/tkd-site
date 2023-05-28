@@ -270,7 +270,7 @@ iframe{
 
 .card .btn-primary{
   width: 200px;
-  margin: 1rem auto 0.5rem;
+  margin: 1rem auto;
   text-align: center;
   border-radius: 50rem;
 }
@@ -339,8 +339,8 @@ iframe{
   border: 2px solid var(--dark-red); 
 }
 
-.black-text{
-  color: black; 
+.red-text{
+  color: var(--dark-red); 
 }
 
 #send-message{
