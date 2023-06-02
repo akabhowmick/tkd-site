@@ -224,7 +224,7 @@ button:not(:disabled):not(.disabled){
 
 .header-large{
   margin: 0 auto;
-  padding-top: 4rem;
+  padding-top: 2rem;
   text-align: center;
 }
 
@@ -273,6 +273,7 @@ iframe{
   margin: 1rem auto;
   text-align: center;
   border-radius: 50rem;
+  font-size: 1.35rem;
 }
 
 .dark-bg .btn-primary{
@@ -299,6 +300,14 @@ iframe{
   line-height: 2;
   text-align: center;
   margin: 0 auto;
+}
+
+.subheader{
+  padding-top: 1rem;
+}
+
+.description{
+  max-width: 650px;
 }
 
 
