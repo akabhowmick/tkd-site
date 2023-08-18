@@ -3,7 +3,7 @@
   .portfolio-grid {
     display: grid;
     flex-wrap: wrap;
-    padding: 2% 10%;
+    padding: 2% 0%;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     justify-items: center;

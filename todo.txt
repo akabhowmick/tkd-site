@@ -1,2 +1,6 @@
-
-
+Header => on hover for larger displays have the sections pop up
+Loading animations 
+change navbar on hover 
+lazy loading 
+ease in out 
+Add review carousels 
