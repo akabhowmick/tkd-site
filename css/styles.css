@@ -263,7 +263,7 @@ button:not(:disabled):not(.disabled) {
 
 .card img {
   width: 100%;
-  height: 65%;
+  aspect-ratio: 3 / 2;
   vertical-align: middle;
 }
 
