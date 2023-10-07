@@ -4,3 +4,24 @@ change navbar on hover
 lazy loading 
 ease in out 
 Add review carousels 
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  max-width: 90vw;
+  padding: 0;
+  margin: 32px auto;  
+  list-style-type: none;
+}
+ 
+li {
+  aspect-ratio: 3 / 4;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;  
+  object-fit: cover;
+}
