@@ -3,10 +3,13 @@
   .portfolio-grid {
     display: grid;
     flex-wrap: wrap;
-    padding: 2% 0%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
     justify-content: center;
     justify-items: center;
+  }
+  .portfolio-card {
+    width: 600px;
+    aspect-ratio: 4/3;
   }
 }
 
@@ -79,7 +82,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
   .home-page-section {
     padding-top: 3.5rem;
   }
