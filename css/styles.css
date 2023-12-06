@@ -617,10 +617,10 @@ iframe {
   flex-direction: column;
 }
 
-#masters .portfolio-card {
+/* #masters .portfolio-card {
   max-width: 600px;
   min-width: 300px;
-}
+} */
 
 #masters .card-body img {
   height: 425px;
