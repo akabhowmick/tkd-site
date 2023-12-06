@@ -7,10 +7,6 @@
     justify-content: center;
     justify-items: center;
   }
-  .portfolio-card {
-    width: 600px;
-    aspect-ratio: 4/3;
-  }
 }
 
 @media screen and (min-width: 820px) {
