@@ -624,7 +624,7 @@ iframe {
 
 #masters .card-body img {
   height: 425px;
-  object-position: top;
+  object-position: center;
 }
 
 a.footer-text {

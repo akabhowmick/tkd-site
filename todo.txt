@@ -25,3 +25,5 @@ img {
   height: 100%;  
   object-fit: cover;
 }
+update the pictures for adult, advanced teen, jl
+update all master pictures
