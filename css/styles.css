@@ -606,7 +606,7 @@ iframe {
 }
 
 /* Footer */
-.footer {
+.footer, .footer-credits {
   color: #fff;
 }
 
@@ -629,4 +629,9 @@ iframe {
 
 a.footer-text {
   color: white;
+}
+
+.footer-credits a{
+  color: aliceblue;
+  text-decoration: underline;
 }
